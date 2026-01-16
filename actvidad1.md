@@ -25,10 +25,10 @@ classDiagram
         +String nivelAceite
         +String saludMotor
         +String estadoCalentamiento
-        +summaryMotor()
+        +summaryMotor(Coche:Coche)
         +cambiarAceite()
         +reparar()
-        +calentar()
+        +calentar(Coche:Coche)
         +tunear()
     }
 
